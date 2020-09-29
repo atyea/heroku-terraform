@@ -9,3 +9,5 @@ heroku_production_database = "heroku-postgresql:hobby-dev"
 heroku_app_buildpacks      = [
   "heroku/ruby"
 ]
+heroku_organization        = "team-name"
+heroku_team_id             = "team_id"

@@ -1,5 +1,10 @@
 resource "heroku_pipeline" "pipeline" {
   name = var.heroku_pipeline_name
+
+  owner {
+    id   = var.heroku_team_id
+    type = "team"
+  }
 }
 
 resource "heroku_pipeline_coupling" "staging" {
