@@ -18,7 +18,7 @@ To run this project you need to have Terraform installed (_Version used is v0.12
 ## Setup the project
 
 1. Install the pre-requisites above
-2. `$ git clone git@github.com:ffscalco/heroku-terraform.git` - Clone the project
+2. `$ git clone git@github.com:net-engine/heroku-terraform.git` - Clone the project
 3. `$ cd heroku-terraform` - Go into the project folder
 4. The file `variables.tf` have all the variables used in this project. The `terraform.tfvars.sample` file works like your `.env`, so copy the `terraform.tfvars.sample` to a new file `terraform.tfvars` and replace them with the configuration you'd like. You can have multiple `.tfvars` files.
 5. `$ terraform init` - Once you have your config set up, you need to initialize terraform, this command will download and install the plugins required by Terraform.
@@ -30,7 +30,8 @@ To run this project you need to have Terraform installed (_Version used is v0.12
 - `$ terraform apply --var-file=other_config.tfvars` - To apply your changes using different configuration.
 - `$ terraform destroy` - if you want to delete your infra.
 
+## Managing multiple projects
 
-### Credits
+If you'd like to use this project as base, please branch off master and use the project name for the new branch:
 
-Many thanks to this [blogpost](https://medium.com/rackbrains/manage-heroku-infrastructure-with-terraform-4a167b850300)
+- `$ git checkout -b project-name
