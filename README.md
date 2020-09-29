@@ -34,4 +34,4 @@ To run this project you need to have Terraform installed (_Version used is v0.12
 
 If you'd like to use this project as base, please branch off master and use the project name for the new branch:
 
-- `$ git checkout -b project-name
+- `$ git checkout -b project-name`
