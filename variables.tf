@@ -9,3 +9,5 @@ variable "heroku_app_buildpacks" {
 }
 variable "heroku_staging_database" { }
 variable "heroku_production_database" { }
+variable "heroku_organization" { }
+variable "heroku_team_id" { }
