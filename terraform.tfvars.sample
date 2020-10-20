@@ -8,12 +8,13 @@ heroku_app_buildpacks = [
   "heroku/ruby"
 ]
 
-heroku_staging_app            = "terraform-heroku-staging"
-heroku_staging_database       = "heroku-postgresql:hobby-dev"
-heroku_staging_bugsnag        = "heroku_staging_bugsnag_token"
-heroku_staging_auth0_domain   = "heroku_staging_auth0_domain"
-heroku_staging_auth0_audience = "heroku_staging_auth0_audience"
-heroku_staging_origin         = "heroku_staging_origin_addresses"
+heroku_staging_app                   = "terraform-heroku-staging"
+heroku_staging_database              = "heroku-postgresql:hobby-dev"
+heroku_staging_bugsnag               = "heroku_staging_bugsnag_token"
+heroku_staging_bugsnag_release_stage = "heroku_staging_bugsnag_release_stage"
+heroku_staging_auth0_domain          = "heroku_staging_auth0_domain"
+heroku_staging_auth0_audience        = "heroku_staging_auth0_audience"
+heroku_staging_origin                = "heroku_staging_origin_addresses"
 
 heroku_production_app      = "terraform-heroku-production"
 heroku_production_database = "heroku-postgresql:hobby-dev"
