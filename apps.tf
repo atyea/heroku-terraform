@@ -11,7 +11,10 @@ resource "heroku_app" "staging" {
     RACK_ENV = "production",
     RAILS_LOG_TO_STDOUT = "enabled",
     RAILS_SERVE_STATIC_FILES = "enabled",
-    BUGSNAG_TOKEN = "c6d489f974257f25f6c7a9c585387d4f"
+    BUGSNAG_TOKEN =  var.heroku_staging_bugsnag,
+    AUTH0_DOMAIN = var.heroku_staging_auth0_domain,
+    AUTH0_AUDIENCE = var.heroku_staging_auth0_audience,
+    ORIGIN = var.heroku_staging_origin
   }
 
   buildpacks = var.heroku_app_buildpacks

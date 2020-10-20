@@ -1,13 +1,19 @@
-heroku_account_email       = "example@domain.com"
-heroku_api_key             = "heroku_api_key_here"
-heroku_pipeline_name       = "terraform-heroku"
-heroku_staging_app         = "terraform-heroku-staging"
-heroku_production_app      = "terraform-heroku-production"
-heroku_region              = "the_region"
-heroku_staging_database    = "heroku-postgresql:hobby-dev"
-heroku_production_database = "heroku-postgresql:hobby-dev"
-heroku_app_buildpacks      = [
+heroku_account_email  = "example@domain.com"
+heroku_api_key        = "heroku_api_key_here"
+heroku_pipeline_name  = "terraform-heroku"
+heroku_organization   = "team-name"
+heroku_team_id        = "team_id"
+heroku_region         = "the_region"
+heroku_app_buildpacks = [
   "heroku/ruby"
 ]
-heroku_organization        = "team-name"
-heroku_team_id             = "team_id"
+
+heroku_staging_app            = "terraform-heroku-staging"
+heroku_staging_database       = "heroku-postgresql:hobby-dev"
+heroku_staging_bugsnag        = "heroku_staging_bugsnag_token"
+heroku_staging_auth0_domain   = "heroku_staging_auth0_domain"
+heroku_staging_auth0_audience = "heroku_staging_auth0_audience"
+heroku_staging_origin         = "heroku_staging_origin_addresses"
+
+heroku_production_app      = "terraform-heroku-production"
+heroku_production_database = "heroku-postgresql:hobby-dev"
