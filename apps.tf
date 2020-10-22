@@ -18,7 +18,8 @@ resource "heroku_app" "staging" {
     ORIGIN = var.heroku_staging_origin,
     KOUNTA_URL = var.kounta_staging_url,
     KOUNTA_CLIENT_ID = var.kounta_staging_client_id,
-    KOUNTA_CLIENT_SECRET = var.kounta_staging_client_secret
+    KOUNTA_CLIENT_SECRET = var.kounta_staging_client_secret,
+    KOUNTA_COMPANY_ID = var.kounta_company_id
   }
 
   buildpacks = var.heroku_app_buildpacks

@@ -19,6 +19,7 @@ variable "heroku_staging_origin" { }
 variable "kounta_staging_client_secret" { }
 variable "kounta_staging_client_id" { }
 variable "kounta_staging_url" { }
+variable "kounta_company_id" { }
 
 variable "heroku_production_app" { }
 variable "heroku_production_database" { }

@@ -20,6 +20,7 @@ kounta_staging_client_secret = "kounta_client_secret"
 kounta_staging_client_id     = "kounta_client_id"
 kounta_staging_url           = "kounta_staging_url"
 kounta_staging_url           = "https://api.kounta.com/v1/"
+kounta_company_id            = "1234"
 
 heroku_production_app      = "terraform-heroku-production"
 heroku_production_database = "heroku-postgresql:hobby-dev"
