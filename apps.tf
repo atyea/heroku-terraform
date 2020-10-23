@@ -15,11 +15,12 @@ resource "heroku_app" "staging" {
     BUGSNAG_RELEASE_STAGE = var.heroku_staging_bugsnag_release_stage,
     AUTH0_DOMAIN = var.heroku_staging_auth0_domain,
     AUTH0_AUDIENCE = var.heroku_staging_auth0_audience,
-    ORIGIN = var.heroku_staging_origin,
+    ORIGIN_ADDRESSES = var.heroku_staging_origin,
     KOUNTA_URL = var.kounta_staging_url,
     KOUNTA_CLIENT_ID = var.kounta_staging_client_id,
     KOUNTA_CLIENT_SECRET = var.kounta_staging_client_secret,
-    KOUNTA_COMPANY_ID = var.kounta_company_id
+    KOUNTA_COMPANY_ID = var.kounta_company_id,
+    KOUNTA_SITE_ID = var.kounta_site_id
   }
 
   buildpacks = var.heroku_app_buildpacks
