@@ -10,6 +10,7 @@ variable "heroku_app_buildpacks" {
 
 variable "heroku_staging_app" {  }
 variable "heroku_staging_database" { }
+variable "heroku_staging_scheduler" { }
 variable "heroku_staging_bugsnag" { }
 variable "heroku_staging_bugsnag_release_stage" { }
 variable "heroku_staging_auth0_domain" { }
