@@ -22,6 +22,7 @@ variable "kounta_staging_client_id" { }
 variable "kounta_staging_url" { }
 variable "kounta_company_id" { }
 variable "kounta_site_id" { }
+variable "kounta_tyro_id" { }
 variable "kounta_signature_token" { }
 
 variable "heroku_production_app" { }
