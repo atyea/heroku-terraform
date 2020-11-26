@@ -8,7 +8,12 @@ resource "heroku_addon" "scheduler" {
   plan = var.heroku_staging_scheduler
 }
 
-resource "heroku_addon" "production" {
+resource "heroku_addon" "prod-database" {
   app = heroku_app.production.name
   plan = var.heroku_production_database
+}
+
+resource "heroku_addon" "prod-scheduler" {
+  app = heroku_app.production.name
+  plan = var.heroku_staging_scheduler
 }
