@@ -24,6 +24,8 @@ variable "kounta_company_id" { }
 variable "kounta_site_id" { }
 variable "kounta_tyro_id" { }
 variable "kounta_signature_token" { }
+variable "tyro_public_key" { }
+variable "tyro_secret_key" { }
 
 variable "heroku_production_app" { }
 variable "heroku_production_database" { }
