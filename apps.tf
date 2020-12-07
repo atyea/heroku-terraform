@@ -24,7 +24,8 @@ resource "heroku_app" "staging" {
     KOUNTA_SIGNATURE_TOKEN = var.kounta_signature_token,
     KOUNTA_TYRO_ID = var.kounta_tyro_id,
     TYRO_PUBLIC_KEY = var.tyro_public_key,
-    TYRO_SECRET_KEY = var.tyro_secret_key
+    TYRO_SECRET_KEY = var.tyro_secret_key,
+    BACKEND_URL = var.staging_backend_url
   }
 
   buildpacks = var.heroku_app_buildpacks
@@ -56,7 +57,8 @@ resource "heroku_app" "production" {
     KOUNTA_SIGNATURE_TOKEN = var.kounta_signature_token,
     KOUNTA_TYRO_ID = var.kounta_tyro_id,
     TYRO_PUBLIC_KEY = var.tyro_public_key,
-    TYRO_SECRET_KEY = var.tyro_secret_key
+    TYRO_SECRET_KEY = var.tyro_secret_key,
+    BACKEND_URL = var.production_backend_url
   }
 
   buildpacks = var.heroku_app_buildpacks

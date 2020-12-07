@@ -16,6 +16,7 @@ variable "heroku_staging_bugsnag_release_stage" { }
 variable "heroku_staging_auth0_domain" { }
 variable "heroku_staging_auth0_audience" { }
 variable "heroku_staging_origin" { }
+variable "staging_backend_url" { }
 
 variable "kounta_client_secret" { }
 variable "kounta_client_id" { }
@@ -35,3 +36,4 @@ variable "heroku_production_bugsnag_release_stage" { }
 variable "heroku_production_auth0_domain" { }
 variable "heroku_production_auth0_audience" { }
 variable "heroku_production_origin" { }
+variable "production_backend_url" { }

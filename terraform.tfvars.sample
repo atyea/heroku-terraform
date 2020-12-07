@@ -16,6 +16,7 @@ heroku_staging_bugsnag_release_stage = "heroku_staging_bugsnag_release_stage"
 heroku_staging_auth0_domain          = "heroku_staging_auth0_domain"
 heroku_staging_auth0_audience        = "heroku_staging_auth0_audience"
 heroku_staging_origin                = "heroku_staging_origin_addresses"
+staging_backend_url                  = "staging_backend_url"
 
 kounta_client_secret         = "kounta_client_secret"
 kounta_client_id             = "kounta_client_id"
@@ -35,3 +36,4 @@ heroku_production_bugsnag_release_stage = "heroku_production_bugsnag_release_sta
 heroku_production_auth0_domain          = "heroku_production_auth0_domain"
 heroku_production_auth0_audience        = "heroku_production_auth0_audience"
 heroku_production_origin                = "heroku_production_origin_addresses"
+production_backend_url                  = "production_backend_url"
