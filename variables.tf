@@ -23,6 +23,7 @@ variable "kounta_client_id" { }
 variable "kounta_url" { }
 variable "kounta_company_id" { }
 variable "kounta_site_id" { }
+variable "kounta_site_id_prod" { }
 variable "kounta_tyro_id" { }
 variable "kounta_signature_token" { }
 variable "tyro_public_key" { }
