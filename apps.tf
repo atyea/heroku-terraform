@@ -56,8 +56,8 @@ resource "heroku_app" "production" {
     KOUNTA_SITE_ID = var.kounta_site_id_prod,
     KOUNTA_SIGNATURE_TOKEN = var.kounta_signature_token,
     KOUNTA_TYRO_ID = var.kounta_tyro_id,
-    TYRO_PUBLIC_KEY = var.tyro_public_key,
-    TYRO_SECRET_KEY = var.tyro_secret_key,
+    TYRO_PUBLIC_KEY = var.tyro_public_key_prod,
+    TYRO_SECRET_KEY = var.tyro_secret_key_prod,
     BACKEND_URL = var.production_backend_url
   }
 

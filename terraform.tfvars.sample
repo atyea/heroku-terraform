@@ -28,6 +28,8 @@ kounta_tyro_id               = "3241"
 kounta_signature_token       = "kounta_signature_token"
 tyro_public_key              = "tyro_public_key"
 tyro_secret_key              = "tyro_secret_key"
+tyro_public_key_prod         = "tyro_public_key_prod"
+tyro_secret_key_prod         = "tyro_secret_key_prod"
 
 heroku_production_app                   = "terraform-heroku-production"
 heroku_production_database              = "heroku-postgresql:hobby-basic"

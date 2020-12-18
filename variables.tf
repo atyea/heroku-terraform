@@ -28,6 +28,8 @@ variable "kounta_tyro_id" { }
 variable "kounta_signature_token" { }
 variable "tyro_public_key" { }
 variable "tyro_secret_key" { }
+variable "tyro_public_key_prod" { }
+variable "tyro_secret_key_prod" { }
 
 variable "heroku_production_app" { }
 variable "heroku_production_database" { }
